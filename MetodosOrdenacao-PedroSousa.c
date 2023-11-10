@@ -14,7 +14,7 @@ void bubbleSort(int vet[], int tam){
 	
 	for(i = 0; i < tam; i++){
 		
-		for(j = 1; j < i; j++){
+		for(j = 1; j < tam; j++){
 			
 			if(vet[j] < vet[j-1]){
 				aux = vet[j-1];
