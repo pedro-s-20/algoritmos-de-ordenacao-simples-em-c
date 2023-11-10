@@ -3,7 +3,7 @@
 #include <locale.h>
 
 /*
-	Atividade Pr·tica - MÈtodos de ordenaÁ„o simples - AEDS II 
+	Atividade Pr√°tica - M√©todos de ordena√ß√£o simples - AEDS II 
 	Aluno: Pedro Sousa
 */
 
@@ -14,7 +14,7 @@ void bubbleSort(int vet[], int tam){
 	
 	for(i = 0; i < tam; i++){
 		
-		for(j = 1; j < tam; j++){
+		for(j = 1; j < i; j++){
 			
 			if(vet[j] < vet[j-1]){
 				aux = vet[j-1];
